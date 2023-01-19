@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    gap: 60px;
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-travel-composition-with-world-map-wooden-background_169016-16173.jpg?w=2000");
+}
+
+#survey-form {
+    height: 600px;
+    width: 250px;
+    background-color: #445b2d;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 15px;
+    gap: 22px;
+  }
+  
+  div {
+    width: 240;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #number {
+    width: 162px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+
+  section {
+   background-color: #175c53; 
+   height: 100vh;
+   width: 400px;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+  }
+  
+
+  #Birth_Date::-webkit-calendar-picker-indicator {
+    background-position: right;
+    background-size: auto;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+#Birth_Date {
+    position: relative;
+}
+
+input {
+    padding: 0px 3px 0px 3px;
+}
+
+
+#section_two {
+height: 100vh;
+width: 1200px;
+position: relative;
+display: none;
+}
+
+
+#registration_info {
+    height: 680px;
+    width: 1000px;
+    background: rgb(16 84 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 20px;
+    text-align: left;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+#account_title {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}

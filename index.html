@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>registration form</title>
+</head>
+<body>
+    <section>
+    <h1 id="title">registration form</h1>
+    <p id="description">please fill the form. good luck!</p>
+
+    <div id="survey-form">
+      <div>
+        <label id="name-label">name</label>
+        <input id="name" type="text" placeholder="name" required />
+      </div>
+      <div>
+        <label id="name-label">lastname</label>
+        <input id="lastname" type="text" placeholder="lastname" required />
+      </div>
+      <div>
+        <label id="email-label">email</label>
+        <input id="email" type="email" placeholder="email" required />
+      </div>
+      <div>
+        <label id="number-label">password</label>
+        <input id="email" type="password" placeholder="password" required />
+      </div>
+      <div>
+        <label id="number-label">number</label>
+        <input
+          id="number"
+          type="number"
+          placeholder="number"
+        />
+      </div>
+      <div>
+        <span>City</span>
+        <select id="dropdown">
+          <option>other</option>
+          <option>Miami</option>
+          <option>New-york</option>
+          <option>Los Angeles</option>
+        </select>
+      </div>
+      <div>
+        <span>Birth Date</span>
+        <input type="date" id="Birth_Date" />
+      </div>
+      <div>
+        <span>Start Work Date</span>
+        <input type="date" id="start_work" />
+      </div>
+      <div>
+        <span>Male</span>
+        <input type="radio" value="man" name="sex" id="man" />
+        <span>Female</span>
+        <input type="radio" value="woman" name="sex" id="woman"/>
+      </div>
+      <div>
+        <span>citizen:</span>
+        <span>Yes</span>
+        <input type="radio" value="yes" name="citizen" />
+        <span>No</span>
+        <input type="radio" value="no" name="citizen" />
+      </div>
+      <div>
+        <span>Graduated (from university)</span>
+        <input type="checkbox" value="Graduated" id="graduated"/>
+      </div>
+      <div>
+        <span>Employed (more than 6 month)</span>
+        <input type="checkbox" value="february" id="employed" />
+      </div>
+      <div>
+        <textarea placeholder="tell us about you" rows="4" cols="30" id="my_info"></textarea>
+      </div>
+      <div>
+        <input onclick="getinformation()" type="submit" id="submit" />
+      </div>
+    </div>
+</section>
+
+<section id="section_two">
+    <h1 id="account_title">Hello , your personal information</h1>
+    <div id="registration_info">
+        
+<h1 id="firstname"></h1>
+<h1 id="lastnamee"></h1>
+<h1 id="emaill"></h1>
+<h1 id="numberr"></h1>
+<h1 id="city"></h1>
+<h1 id="birth_date"></h1>
+<h1 id="sex"></h1>
+<h1 id="education"></h1>
+<h1  id="personal_info"></h1>
+<h1 id="status"></h1>
+</div>
+</section>
+    <script src="app.js"></script>
+</body>
+</html>
